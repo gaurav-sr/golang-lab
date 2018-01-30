@@ -6,7 +6,7 @@ import (
 )
 
 func readArgs() {
-	fmt.Printf("This program accepts user input and prints number of characters\n")
+	fmt.Printf("This program accepts user input and prints number of characters in each argument\n")
 	arguments := os.Args
 	printArgsFrom(arguments, 0)
 }
