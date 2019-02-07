@@ -9,3 +9,7 @@ type StudentClass struct {
 func (c *StudentClass) getStudentCount() int {
 	return c.count
 }
+
+func (c *StudentClass) addStudent(name string) {
+
+}
