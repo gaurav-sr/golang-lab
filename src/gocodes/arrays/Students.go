@@ -10,6 +10,6 @@ func (c *StudentClass) getStudentCount() int {
 	return c.count
 }
 
-func (c *StudentClass) addStudent(name string) {
+func (c *StudentClass) addStudent(name string) int {
 
 }
