@@ -1,9 +1,10 @@
 package domain
 
+// Class type for defining class domain
 type Class struct {
-	Id string
+	ID       string
 	Students []Student
-	Year int
+	Year     int
 }
 
 func (c Class) countStudents() int {

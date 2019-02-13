@@ -1,4 +1,4 @@
-package main
+package somestructs
 
 import "fmt"
 
@@ -16,8 +16,4 @@ func (s *StudentClass) addStudent(name string) {
 
 func (s *StudentClass) getStudentCount() int {
 	return len(s.names)
-}
-
-func main() {
-
 }
