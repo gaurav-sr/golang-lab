@@ -11,14 +11,14 @@ func main() {
 }
 
 func format1() {
-	names := [4]string{"Kanpur", "Nasik", "Pune", "Dublin"}
+	names := [4]string{"Kanpur", "Nashik", "Pune", "Dublin"}
 	for idx, name := range names {
 		fmt.Printf("%d %s\n", idx, name)
 	}
 }
 
 func format2() {
-	cities := [...]string{"Kanpur", "Pune", "Nasik", "Dublin"}
+	cities := [...]string{"Kanpur", "Pune", "Nashik", "Dublin"}
 	for _, city := range cities {
 		fmt.Println(city)
 	}

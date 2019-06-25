@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"net/http"
 	"io"
+	"net/http"
 )
 
 func main() {
@@ -24,5 +24,3 @@ func startServer() {
 	http.ListenAndServe(port, nil)
 	fmt.Printf("\nStarted server on port %s\n", port)
 }
-
-

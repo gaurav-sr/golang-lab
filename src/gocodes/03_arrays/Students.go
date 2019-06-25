@@ -11,5 +11,5 @@ func (c *StudentClass) getStudentCount() int {
 }
 
 func (c *StudentClass) addStudent(name string) int {
-
+ return 1
 }

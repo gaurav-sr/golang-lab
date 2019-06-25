@@ -16,8 +16,10 @@ func sumArgs() {
 		if err != nil {
 			fmt.Println("Only integer argument allowed")
 			panic(err)
+		} else {
+			sum = sum + num
 		}
-		sum = sum + num
+
 	}
 	fmt.Println("Sum is ", sum)
 }
