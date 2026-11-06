@@ -1,4 +1,4 @@
-module gocodes/07_postgres
+module gocodes/postgres-lab
 
 go 1.27.3
 

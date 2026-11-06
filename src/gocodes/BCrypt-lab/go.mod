@@ -1,4 +1,4 @@
-module gocodes/06_BCrypt
+module gocodes/BCrypt-lab
 
 go 1.27.3
 
