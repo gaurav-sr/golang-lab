@@ -1,9 +1,12 @@
 package main
 
-//StudentClass structure
+import "fmt"
+
+// StudentClass structure
 type StudentClass struct {
-	names []string
-	count int
+	className string
+	names     []string
+	count     int
 }
 
 func (c *StudentClass) getStudentCount() int {
@@ -11,5 +14,8 @@ func (c *StudentClass) getStudentCount() int {
 }
 
 func (c *StudentClass) addStudent(name string) int {
- return 1
+	fmt.Println(name)
+	c.names = append(c.names, name)
+	c.count++
+	return c.count
 }

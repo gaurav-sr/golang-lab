@@ -1,3 +1,3 @@
 module 05_structs
 
-go 1.17
+go 1.27.3
