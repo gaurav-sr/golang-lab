@@ -11,7 +11,7 @@ func main() {
 	password := "thisisnew378"
 	hashedPassword, _ := generateHash(password)
 	fmt.Println("hashed : ", hashedPassword)
-	check := checkPassword(hashedPassword, "password")
+	check := checkPassword(hashedPassword, password)
 	fmt.Println("Password match : ", check)
 }
 
